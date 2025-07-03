@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 
 const JIRA_CONFIG = {
     baseUrl: 'https://jira.arubanetworks.com',
-    accessToken: 'OTU5MDEyMTU3MTA5OlV2jDxrTXzpVnwI7P9fpmBuC9Vf' // Working token from Python example
+    accessToken: 'YOUR_JIRA_TOCKEN' // Working token from Python example
 };
 
 async function testJiraAuth() {
