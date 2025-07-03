@@ -1,0 +1,25 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore logs
+*.log
+
+# Ignore environment files
+.env
+
+# Ignore GitHub push script
+gitHub_push.sh
+
+# Ignore IDE settings
+.vscode/
+
+# Ignore build artifacts
+dist/
+
+# Ignore temporary files
+*.tmp
+*.swp
+.DS_Store
+
+# Ignore coverage reports
+coverage/
