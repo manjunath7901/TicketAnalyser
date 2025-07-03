@@ -7,7 +7,7 @@ async function testJiraAuth() {
     // Test configuration
     const config = {
         jiraUrl: 'https://jira.arubanetworks.com',
-        token: 'MDkxMTk5MTY4MDUwOrCPBAl51+xdJpjyPn4zaPaeWqFs',
+        token: 'YOUR_JIRA_TOCKEN',
         // You need to provide your email here
         email: 'kallatti@hpe.com' // Replace with your actual email if different
     };

@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3001;
 const JIRA_CONFIG = {
     baseUrl: 'https://jira.arubanetworks.com',
     // Using the working Bearer token (the one that actually works)
-    accessToken: 'MDkxMTk5MTY4MDUwOrCPBAl51+xdJpjyPn4zaPaeWqFs'
+    accessToken: 'YOUR_JIRA_TOCKEN'
 };
 
 // Middleware

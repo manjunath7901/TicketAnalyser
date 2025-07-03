@@ -17,7 +17,7 @@ class JiraTicketAnalyzer {
     init() {
         // Pre-fill the form with provided values
         document.getElementById('jiraUrl').value = 'https://jira.arubanetworks.com';
-        document.getElementById('token').value = 'MDkxMTk5MTY4MDUwOrCPBAl51+xdJpjyPn4zaPaeWqFs';
+        document.getElementById('token').value = 'YOUR_JIRA_TOCKEN';
         document.getElementById('email').value = 'manjunath.kallatti@hpe.com';
         
         this.form.addEventListener('submit', this.handleSubmit.bind(this));

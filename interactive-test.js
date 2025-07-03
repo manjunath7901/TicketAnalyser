@@ -18,7 +18,7 @@ async function testJiraAuth() {
     
     console.log('Your current configuration:');
     console.log('JIRA URL: https://jira.arubanetworks.com');
-    console.log('Token: MDkxMTk5MTY4MDUwOrCPBAl51+xdJpjyPn4zaPaeWqFs\n');
+    console.log('Token: YOUR_JIRA_TOCKEN\n');
     
     // Get email from user
     const email = await askQuestion('Enter your email address: ');
@@ -33,7 +33,7 @@ async function testJiraAuth() {
     
     const config = {
         jiraUrl: 'https://jira.arubanetworks.com',
-        token: 'MDkxMTk5MTY4MDUwOrCPBAl51+xdJpjyPn4zaPaeWqFs',
+        token: 'YOUR_JIRA_TOCKEN',
         email: email.trim()
     };
 
